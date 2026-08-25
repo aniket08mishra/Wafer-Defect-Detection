@@ -1,18 +1,4 @@
-# Automated Wafer Defect Detection and Pattern Recognition
 
-[![Python 3.9+](https://shields.io)](https://python.org)
-[![PyTorch](https://shields.io)](https://pytorch.org)
-[![TensorFlow](https://shields.io)](https://tensorflow.org)
-[![License: GPL-3.0](https://shields.io)](https://gnu.org)
-
-Developed at the **Q-MADE Lab, Department of Materials Science and Engineering, Indian Institute of Technology Kanpur (IITK)**. This repository hosts an end-to-end Deep Learning framework designed to automate industrial wafer-map defect inspection, substituting conventional and high-latency manual visual inspections with representation learning.
-
-<p align="center">
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-</p>
-
----
 
 ## 📌 Project Overview
 
@@ -61,43 +47,3 @@ The model exhibits distinct structural precision when isolating macro-scale anom
 
 ---
 
-## 🛠️ Installation & Dependency Setup
-
-Ensure you have a Python environment manager configured (such as Miniconda or Anaconda).
-
-1. Clone this repository locally:
-   ```bash
-   git clone https://github.com
-   cd Wafer-Defect-Detection
-   ```
-
-2. Create a clean virtual environment and install core engineering libraries:
-   ```bash
-   conda create -n wafer-env python=3.9 -y
-   conda activate wafer-env
-   pip install torch torchvision numpy pandas scikit-learn opencv-python imgaug matplotlib seaborn tensorflow
-   ```
-
----
-
-## 📂 Repository Structure
----
-
-## 🎯 Research Applications
-
-This pipeline is built to integrate with broader digital twin architectures in semiconductor manufacturing. By mapping specific spatial defect footprints to process steps, this model can be chained to:
-*   **Plasma-Etch Surrogates**: Correlating `Edge-Ring` or `Edge-Loc` faults with process chemistry parameters.
-*   **Bayesian Recipe Optimization**: Automating the feedback loop to dynamically adjust tool settings when structural degradation patterns are flagged.
-
----
-
-## ✉️ Contact & Collaboration
-
-**Aniket Mishra**  
-*M.Tech Candidate, Department of Materials Science and Engineering*  
-**Indian Institute of Technology Kanpur (IITK)**  
-Research Focus: Semiconductor AI, Scientific ML, Process Digital Twins  
-
-*   **Email**: [aniket08mishra@gmail.com](mailto:aniket08mishra@gmail.com)
-*   **LinkedIn**: [://linkedin.com](https://www.://linkedin.com/)  
-*   **ORCID**: [0009-0001-4550-7337](https://orcid.org)
